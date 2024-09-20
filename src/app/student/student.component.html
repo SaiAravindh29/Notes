@@ -1,0 +1,29 @@
+<main>
+    <div>
+        <button class="logOutBtn" (click)="lgOut()">Log Out</button>
+    </div> <br>
+   <div class="details">
+        <h2>Student Details</h2>
+
+        <form action="" class="studentForm">
+           <div>
+                    <label for="name" style="font-weight: 500;">Student Name:</label><br>
+                    <input type="text" id="name" name="name" [(ngModel)]="student.sname" required><br><br>
+
+                    <label for="class"  style="font-weight: 500;">Class:</label><br>
+                    <input type="text" id="class" name="class"  [(ngModel)]="student.class" required><br><br>
+
+                    <label for="dob"  style="font-weight: 500;">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob"  [(ngModel)]="student.dob" required><br><br>
+
+                    <label for="phone"   style="font-weight: 500;">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone"  [(ngModel)]="student.phone" pattern="[0-9]{10}" required><br><br>
+              
+                    <!-- <input type="submit" value="Submit"> -->
+                     <button  type="submit" class="btn btn-primary" (click)="addStudent()">Submit</button>
+
+          </div>
+
+        </form>
+   </div>
+</main>

@@ -1,0 +1,31 @@
+<main>
+    <div class="login-container">
+        <h2>Login Page</h2> <br>    
+
+        <form id="loginForm" class="formInput">
+            <div>
+                <label for="username" class="userid" style="margin-right: 5px;">UserId</label> &nbsp;  &nbsp;
+                <input type="text" id="username" name="userId" [(ngModel)]="userId" required placeholder="Enter userId" 
+                style="margin: 10px; padding: 10px; border-radius: 25px; padding-right: 50px;">  
+            </div>
+            <br>
+            <div>
+                <label for="password" class="pass"  style="margin-right: 3px;">Password</label>  &nbsp;
+                <input type="password" id="password" name="password" [(ngModel)]="password" required placeholder="Enter Password"
+                 style="padding: 10px; border-radius: 25px;  padding-right: 50 px;">  
+            </div>
+            <br>
+            <div class="submitButton" style="margin-top: 10px;">
+                <button type="submit" (click)="submit()">Login</button>
+            </div>
+        </form>
+    </div>
+
+  @if (false) {
+    
+     <div style="background-color: antiquewhite; width: 450px; height: 100px;">
+        <h1 style=" color: black;"> {{ textMessage }} </h1>
+    </div>
+  }  
+   
+</main> 

@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(39, 188, 247) , rgb(15, 247, 235));
+    height: 900px;
+    
+}
+
+.userid{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.pass{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.submitButton{
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button{
+    background-color: #007bff;
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .login-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 40%;
+     /* color: aqua;
+     background-color: rgb(80, 224, 235); */
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container .submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

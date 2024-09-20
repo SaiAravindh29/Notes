@@ -1,0 +1,26 @@
+<main>
+    <div>
+        <button class="logOutBtn" (click)="lgOut()">Log Out</button>
+    </div> <br>
+    <div class="Gparent1">
+        <div style="margin: 0px; position: relative; top: 75px;">
+            <h2>Number Counter</h2>
+        </div>
+        <div class="result">
+           
+          <h2>{{ Value }}</h2>         
+        </div>
+         <br>
+        <div class="Gparent2">
+         
+            <section class="Gchild1">
+                <button (click)="onIncrement()" style="border-radius: 45%; background-color: green; color: white; padding: 12px; ">Increment</button>
+            </section>
+            <section class="Gchild1">
+                <button (click)="onDecrement()" style="border-radius: 45%; background-color: red; color:white ;  padding: 12px; ">Decrement</button>
+            </section>
+        </div>
+        
+    </div>
+
+</main>
